@@ -9,9 +9,8 @@ function App() {
   return (
     <Provider store={store}>
       <ChakraProvider>
-
-    <LandingPage />
-    </ChakraProvider>
+        <LandingPage />
+      </ChakraProvider>
     </Provider>
   );
 }
